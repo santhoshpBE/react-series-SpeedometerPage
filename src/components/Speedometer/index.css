@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card-heading {
+  font-size: 30px;
+  font-family: Roboto;
+  font-weight: bold;
+  color: #ffffff;
+  font-style: italic;
+  margin: 10px;
+}
+
+.card-para {
+  font-size: 25px;
+  font-family: Roboto;
+  color: #ffffff;
+  margin: 10px;
+}
+.card-para-2 {
+  font-size: 10px;
+  font-family: Roboto;
+  color: #ffffff;
+  margin: 10px;
+}
+.card-button {
+  color: white;
+  background-color: #007bff;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-width: 0px;
+  font-size: 10px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.card-image {
+  width: 70%;
+  margin: 10px;
+}
+.card-brake-button {
+  border-color: #94a3b8;
+  border-width: 4px;
+  background-color: transparent;
+  border-radius: 5px;
+  font-size: 10px;
+  margin-left: 10px;
+  color: #cbd5e1;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+}
